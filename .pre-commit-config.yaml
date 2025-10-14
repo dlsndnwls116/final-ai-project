@@ -1,0 +1,15 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.6.8
+  hooks:
+    - id: ruff
+      args: [--fix, --unsafe-fixes, --force-exclude]   # 자동 수정 + 안전하지 않은 수정도 포함
+    - id: ruff-format
+      args: [--force-exclude]                          # 포맷팅
+
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.11.2
+  hooks:
+    - id: mypy
+      args: [--ignore-missing-imports]
+      additional_dependencies: [types-Pillow, types-requests]

@@ -1,0 +1,19 @@
+{
+  "fps": 30,
+  "duration_sec": 15,
+  "ratio": "9:16",
+  "music_bpm": 120,
+  "shots": [
+    {"role": "establish", "seconds": 2.0, "bg": "city_skyline_gold", "transition": "cut"},
+    {"role": "mood",       "seconds": 2.0, "bg": "modern_lobby_warm", "transition": "cut"},
+    {"role": "mood",       "seconds": 2.5, "bg": "textured_wall_soft", "transition": "whip"},
+    {"role": "graphic",    "seconds": 2.0, "bg": "flare_pattern", "transition": "cut"},
+    {"role": "product",    "seconds": 2.5, "cam": "tilt_in_30deg", "transition": "cut"},
+    {"role": "product",    "seconds": 2.0, "cam": "top_slow_zoom", "transition": "cut"},
+    {"role": "product",    "seconds": 1.5, "cam": "3_4_close_macro", "transition": "cut"},
+    {"role": "cta",        "seconds": 0.5, "text": "지금 확인하기", "transition": "cut"}
+  ],
+  "palette": ["#D9C7A1", "#111111", "#FFFFFF"],
+  "contrast": "medium_high",
+  "safe_mode_bg": true
+}
