@@ -1,6 +1,6 @@
-# 🎬 AI 광고 크리에이터 - Streamlit 대시보드
+# 🎬 Final AI Project - AI 광고 크리에이터
 
-Gemini 스타일의 미래형 UI를 적용한 AI 기반 광고 제작 웹 애플리케이션입니다.
+Codeit 고급 스프린트 최종 프로젝트로 개발된 AI 기반 광고 제작 웹 애플리케이션입니다.
 
 ## ✨ 주요 기능
 
@@ -8,14 +8,15 @@ Gemini 스타일의 미래형 UI를 적용한 AI 기반 광고 제작 웹 애플
 - **다중 AI 모델 지원**: OpenAI GPT와 Google Gemini API 통합
 - **실시간 미리보기**: 생성된 광고 콘텐츠를 즉시 확인
 - **파일 업로드**: 이미지, 영상 등 다양한 미디어 파일 지원
+- **Streamlit 대시보드**: 직관적인 웹 인터페이스
 - **반응형 디자인**: 모바일과 데스크톱 모두 최적화
 
 ## 🚀 빠른 시작
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/your-username/ai-ad-creator.git
-cd ai-ad-creator
+git clone https://github.com/dlsndnwls116/final-ai-project.git
+cd final-ai-project
 ```
 
 ### 2. 의존성 설치
@@ -57,7 +58,7 @@ streamlit run app/app_streamlit.py --server.port 8502
 ## 📁 프로젝트 구조
 
 ```
-ai-ad-creator/
+final-ai-project/
 ├── app_modern.py              # 메인 Streamlit 앱 (Gemini 스타일 UI)
 ├── app/
 │   ├── app_streamlit.py       # 고급 기능 Streamlit 앱
